@@ -19,11 +19,13 @@ The biggest change between shared hosting and Linode's cloud is that with Linode
 
 ## Before You Begin
 
-This guide assumes three things:
+This guide assumes four things:
 
 *   You already have a Linode account.
 *   You know how to sign in to the [Linode Manager](https://manager.linode.com/).
 *   You have at least basic knowledge of how to use SSH.
+*   The website you're attempting to migrate is capable of running on a LAMP stack.
+  *   If you're migrating from a Windows/IIS based web host, your site may not work as expected if it depends on any features or frameworks that require a Windows environment. If you're unsure about this, or any server specific configuration required for your site to operate, *seriously consider pausing your migration,* and consult your web developer to make sure you're prepared.
 
 See our [Getting Started](/docs/getting-started) guide for more information on signing up and setting up your Linode.
 
